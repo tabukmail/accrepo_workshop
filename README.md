@@ -1,4 +1,4 @@
-SQL & Python
+SQL & Perlito
 ----------------------
 Accounting app workshop
 
