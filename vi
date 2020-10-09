@@ -1,0 +1,24 @@
+syntax on
+set tabstop=4
+filetype on
+set nu
+set ruler
+set mouse=a
+set list
+set nolist
+set number
+set hlsearch
+set incsearch
+
+call plug#begin('~/.vim/plugged')
+
+		Plug 'morhetz/gruvbox'
+		Plug 'scrooloose/nerdtree' , {'on': 'NERDTreeToggle'}
+        
+call plug#end()
+
+"mappings
+map <C-n> :NERDTreeToggle<CR>
+
+colorscheme gruvbox
+set background=dark
