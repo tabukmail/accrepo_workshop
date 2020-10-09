@@ -1,0 +1,2 @@
+source /home/bali/perl5/perlbrew/etc/bashrc
+
